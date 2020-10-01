@@ -1,0 +1,21 @@
+{
+  "name": "WebEmbed",
+  "version": "1.0.0",
+  "description": "Embed Websites",
+  "main": "main.js",
+  "author": "d43m0nhlint3r",
+  "repository": "https://github.com/d43m0nhLInt3r/WebEmbed",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -w nsis --x64"
+  },
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-builder": "^22.8.1"
+  },
+  "build": {
+    "appId": "com.webembed",
+    "asar": true
+  }
+}
